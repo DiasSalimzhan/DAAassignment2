@@ -1,0 +1,13 @@
+Workload,DataStructure,N,AvgTime_ms,Operations,TheoreticalComplexity
+RandomAccess,DynamicArray,100,0.02,10000,O(1)
+RandomAccess,DynamicArray,1000,0.03,10000,O(1)
+RandomAccess,DynamicArray,10000,0.05,10000,O(1)
+RandomAccess,DynamicArray,100000,0.08,10000,O(1)
+RandomAccess,LinkedList,100,0.45,10000,O(n)
+RandomAccess,LinkedList,1000,5.12,10000,O(n)
+RandomAccess,LinkedList,10000,68.40,10000,O(n)
+RandomAccess,LinkedList,100000,890.15,10000,O(n)
+PriorityProcessing,MinHeap,100,0.05,100,O(log n)
+PriorityProcessing,MinHeap,1000,0.42,1000,O(log n)
+PriorityProcessing,MinHeap,10000,5.10,10000,O(log n)
+PriorityProcessing,MinHeap,100000,62.30,100000,O(log n)
